@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Happit</string>
+
+    <!-- Navigation -->
+    <string name="nav_today">Today</string>
+    <string name="nav_stats">Stats</string>
+    <string name="nav_ranks">Ranks</string>
+    <string name="nav_profile">Profile</string>
+    <string name="add_habit">Add habit</string>
+
+    <!-- Today -->
+    <string name="greeting_morning">Good morning</string>
+    <string name="greeting_afternoon">Good afternoon</string>
+    <string name="greeting_evening">Good evening</string>
+    <string name="greeting_with_name">%1$s, %2$s</string>
+    <string name="done_label">done</string>
+    <string name="level_n">Level %1$d</string>
+    <string name="xp_progress">%1$d / %2$d XP</string>
+    <string name="slot_morning">Morning</string>
+    <string name="slot_afternoon">Afternoon</string>
+    <string name="slot_evening">Evening</string>
+    <string name="slot_anytime">Anytime</string>
+    <string name="progress_count">%1$d / %2$d %3$s</string>
+    <string name="progress_minutes">%1$d / %2$d min</string>
+    <string name="empty_title">Build your routine</string>
+    <string name="empty_body">Add the habits you want to do every day. Finish them to earn XP, level up, and climb the ranks.</string>
+    <string name="empty_cta">Add your first habit</string>
+    <string name="rest_day">Nothing is scheduled for this day. Enjoy the rest.</string>
+    <string name="back_to_today">Back to today</string>
+    <string name="no_streak_yet">Start a streak today</string>
+
+    <plurals name="streak_days">
+        <item quantity="one">%d-day streak</item>
+        <item quantity="other">%d-day streak</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="one">%d day</item>
+        <item quantity="other">%d days</item>
+    </plurals>
+
+    <!-- Celebrations -->
+    <string name="level_up">Level up</string>
+    <string name="you_are_now">You\'re now</string>
+    <string name="rank_reward">+1 streak freeze for your new rank</string>
+    <string name="perfect_day">Perfect day</string>
+    <string name="perfect_day_body">You finished every habit today. +50 XP bonus.</string>
+    <string name="title_unlocked">Title unlocked</string>
+    <string name="equip_title">Use this title</string>
+    <string name="continue_btn">Continue</string>
+    <string name="freeze_earned">Streak freeze earned</string>
+    <string name="freeze_earned_body">It will protect your streaks on a day you miss.</string>
+
+    <!-- Habit sheet -->
+    <string name="current_streak">Current streak</string>
+    <string name="best_streak">Best streak</string>
+    <string name="rate_30_short">30-day rate</string>
+    <string name="last_30">Last 30 days</string>
+    <string name="mark_done">Mark as done</string>
+    <string name="mark_undone">Mark as not done</string>
+    <string name="edit">Edit</string>
+    <string name="timer_start">Start</string>
+    <string name="timer_pause">Pause</string>
+    <string name="add_5_min">+5 min</string>
+    <string name="reset">Reset</string>
+    <string name="schedule_every_day">Every day</string>
+    <string name="decrease">Decrease</string>
+    <string name="increase">Increase</string>
+
+    <!-- Editor -->
+    <string name="new_habit">New habit</string>
+    <string name="edit_habit">Edit habit</string>
+    <string name="save">Save</string>
+    <string name="back">Back</string>
+    <string name="habit_name">Name</string>
+    <string name="habit_name_hint">Read 20 pages</string>
+    <string name="name_required">Enter a name</string>
+    <string name="templates">Quick start</string>
+    <string name="icon">Icon</string>
+    <string name="color">Color</string>
+    <string name="type">Type</string>
+    <string name="type_check">Check</string>
+    <string name="type_count">Count</string>
+    <string name="type_duration">Duration</string>
+    <string name="goal">Daily goal</string>
+    <string name="unit">Unit</string>
+    <string name="unit_hint">glasses</string>
+    <string name="minutes">min</string>
+    <string name="repeat">Repeat</string>
+    <string name="every_day">Every day</string>
+    <string name="specific_days">Specific days</string>
+    <string name="pick_a_day">Pick at least one day</string>
+    <string name="time_of_day">Time of day</string>
+    <string name="reminder">Reminder</string>
+    <string name="reminder_off">Off</string>
+    <string name="set_time">Set time</string>
+    <string name="delete_habit">Delete habit</string>
+    <string name="delete_confirm_title">Delete this habit?</string>
+    <string name="delete_confirm_body">Your earned XP stays. The habit and its reminder will be removed.</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+
+    <!-- Templates -->
+    <string name="tpl_water">Drink water</string>
+    <string name="tpl_water_unit">glasses</string>
+    <string name="tpl_read">Read</string>
+    <string name="tpl_workout">Workout</string>
+    <string name="tpl_meditate">Meditate</string>
+    <string name="tpl_walk">Walk</string>
+    <string name="tpl_wake">Wake up early</string>
+    <string name="tpl_study">Study</string>
+    <string name="tpl_sleep">Sleep before 11 PM</string>
+    <string name="tpl_no_phone">No phone in bed</string>
+    <string name="tpl_journal">Write a journal</string>
+    <string name="tpl_vitamins">Take vitamins</string>
+
+    <!-- Stats -->
+    <string name="stats_title">Stats</string>
+    <string name="perfect_days">Perfect days</string>
+    <string name="total_done">Habits done</string>
+    <string name="this_week">Last 7 days</string>
+    <string name="activity">Activity</string>
+    <string name="less">Less</string>
+    <string name="more">More</string>
+    <string name="per_habit">Your habits</string>
+    <string name="habit_stats">Current %1$d · Best %2$d</string>
+    <string name="rate_30">%1$d%%</string>
+    <string name="no_stats">Add a habit to see your stats.</string>
+
+    <!-- Ranks -->
+    <string name="ranks_title">Ranks</string>
+    <string name="total_xp">%1$s XP total</string>
+    <string name="xp_to_next">%1$s XP to %2$s</string>
+    <string name="max_rank">You reached the top rank</string>
+    <string name="rank_level_req">Level %1$d+</string>
+    <string name="current">Current</string>
+    <string name="titles">Titles</string>
+    <string name="titles_hint">Unlock titles with achievements. Tap an unlocked title to show it on your profile.</string>
+    <string name="equipped">Equipped</string>
+    <string name="how_xp">How XP works</string>
+    <string name="xp_rule_habit">+10 XP for each habit you finish</string>
+    <string name="xp_rule_streak">+5 XP bonus on a 7-day habit streak, +10 at 30 days</string>
+    <string name="xp_rule_perfect">+50 XP when you finish every habit in a day</string>
+    <string name="xp_rule_keep">Missing a day never costs XP or levels. Only streaks reset.</string>
+
+    <string name="rank_beginner">Beginner</string>
+    <string name="rank_apprentice">Apprentice</string>
+    <string name="rank_committed">Committed</string>
+    <string name="rank_disciplined">Disciplined</string>
+    <string name="rank_warrior">Warrior</string>
+    <string name="rank_champion">Champion</string>
+    <string name="rank_master">Master</string>
+    <string name="rank_legend">Legend</string>
+
+    <string name="ach_first_step">First step</string>
+    <string name="ach_first_step_d">Finish your first habit</string>
+    <string name="ach_architect">Architect</string>
+    <string name="ach_architect_d">Create 5 habits</string>
+    <string name="ach_early_bird">Early bird</string>
+    <string name="ach_early_bird_d">Keep a morning habit for 7 days</string>
+    <string name="ach_night_owl">Night owl</string>
+    <string name="ach_night_owl_d">Keep an evening habit for 7 days</string>
+    <string name="ach_week_warrior">Week warrior</string>
+    <string name="ach_week_warrior_d">Reach a 7-day streak</string>
+    <string name="ach_iron_will">Iron will</string>
+    <string name="ach_iron_will_d">Reach a 30-day streak</string>
+    <string name="ach_marathon">Marathon</string>
+    <string name="ach_marathon_d">Reach a 100-day streak</string>
+    <string name="ach_unbreakable">Unbreakable</string>
+    <string name="ach_unbreakable_d">Keep one habit for 30 days</string>
+    <string name="ach_perfectionist">Perfectionist</string>
+    <string name="ach_perfectionist_d">Have 7 perfect days</string>
+    <string name="ach_centurion">Centurion</string>
+    <string name="ach_centurion_d">Finish 100 habits</string>
+    <string name="ach_habit_machine">Habit machine</string>
+    <string name="ach_habit_machine_d">Finish 1,000 habits</string>
+    <string name="ach_comeback">Comeback</string>
+    <string name="ach_comeback_d">Come back after a break of 3 days or more</string>
+    <string name="ach_rising_star">Rising star</string>
+    <string name="ach_rising_star_d">Reach level 10</string>
+    <string name="ach_legendary">Legendary</string>
+    <string name="ach_legendary_d">Reach level 50</string>
+
+    <!-- Profile -->
+    <string name="profile_title">Profile</string>
+    <string name="your_name">Your name</string>
+    <string name="name_hint">Add your name</string>
+    <string name="level_short">Level</string>
+    <string name="xp">XP</string>
+    <string name="freezes">Freezes</string>
+    <string name="freezes_title">Streak freezes</string>
+    <plurals name="freezes_count">
+        <item quantity="one">You have %d freeze</item>
+        <item quantity="other">You have %d freezes</item>
+    </plurals>
+    <string name="freezes_body">A freeze protects your streaks on a day you miss completely. It\'s used automatically. You earn one for every 7-day streak and every new rank, up to 5.</string>
+    <string name="settings">Settings</string>
+    <string name="appearance">Appearance</string>
+    <string name="theme_system">System</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="language">Language</string>
+    <string name="lang_system">System</string>
+    <string name="lang_en" translatable="false">English</string>
+    <string name="lang_ar" translatable="false">العربية</string>
+    <string name="notifications">Notifications</string>
+    <string name="notif_on">Reminders can reach you</string>
+    <string name="notif_off">Allow notifications to get habit reminders</string>
+    <string name="allow">Allow</string>
+    <string name="backup">Backup</string>
+    <string name="backup_desc">Save all your habits and progress to a file, or restore them on a new phone.</string>
+    <string name="export_data">Export</string>
+    <string name="import_data">Import</string>
+    <string name="export_done">Backup saved</string>
+    <string name="export_failed">Couldn\'t save the backup. Try again.</string>
+    <string name="import_done">Backup restored</string>
+    <string name="import_failed">That file isn\'t a Happit backup.</string>
+    <string name="import_confirm_title">Replace your data?</string>
+    <string name="import_confirm_body">Importing replaces all your current habits and progress with the backup.</string>
+    <string name="updates">Updates</string>
+    <string name="check_updates">Check for updates</string>
+    <string name="version_label">Version %1$s</string>
+    <string name="checking">Checking…</string>
+    <string name="up_to_date">You have the latest version</string>
+    <string name="update_available">Version %1$s is available</string>
+    <string name="update_now">Update now</string>
+    <string name="downloading">Downloading… %1$d%%</string>
+    <string name="install">Install</string>
+    <string name="update_error">Couldn\'t check for updates. Check your connection and try again.</string>
+    <string name="download_error">Download failed. Try again.</string>
+    <string name="allow_installs">Allow Happit to install updates, then tap Install again.</string>
+    <string name="whats_new">What\'s new</string>
+    <string name="later">Later</string>
+    <string name="about">About</string>
+    <string name="github">View on GitHub</string>
+
+    <!-- Notifications -->
+    <string name="channel_reminders">Habit reminders</string>
+    <string name="notif_title">Time for: %1$s</string>
+    <plurals name="notif_streak">
+        <item quantity="one">Keep your %d-day streak going</item>
+        <item quantity="other">Keep your %d-day streak going</item>
+    </plurals>
+    <string name="notif_start">Small steps every day add up.</string>
+    <string name="notif_done">Done</string>
+
+    <string-array name="quotes">
+        <item>Small steps every day add up.</item>
+        <item>You don\'t have to be perfect. Just show up.</item>
+        <item>Today\'s effort is tomorrow\'s habit.</item>
+        <item>Progress beats perfection.</item>
+        <item>One habit at a time. One day at a time.</item>
+        <item>Keep the chain going.</item>
+        <item>Missed a day? Start again. Your XP is still yours.</item>
+        <item>Consistency turns effort into results.</item>
+        <item>Show up for yourself today.</item>
+        <item>Little by little becomes a lot.</item>
+    </string-array>
+</resources>

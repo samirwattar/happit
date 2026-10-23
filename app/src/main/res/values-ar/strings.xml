@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Navigation -->
+    <string name="nav_today">اليوم</string>
+    <string name="nav_stats">الإحصاء</string>
+    <string name="nav_ranks">الرتب</string>
+    <string name="nav_profile">الملف</string>
+    <string name="add_habit">إضافة عادة</string>
+
+    <!-- Today -->
+    <string name="greeting_morning">صباح الخير</string>
+    <string name="greeting_afternoon">طاب نهارك</string>
+    <string name="greeting_evening">مساء الخير</string>
+    <string name="greeting_with_name">%1$s، %2$s</string>
+    <string name="done_label">منجز</string>
+    <string name="level_n">المستوى %1$d</string>
+    <string name="xp_progress">%1$d / %2$d XP</string>
+    <string name="slot_morning">الصباح</string>
+    <string name="slot_afternoon">الظهيرة</string>
+    <string name="slot_evening">المساء</string>
+    <string name="slot_anytime">أي وقت</string>
+    <string name="progress_count">%1$d / %2$d %3$s</string>
+    <string name="progress_minutes">%1$d / %2$d دقيقة</string>
+    <string name="empty_title">ابنِ روتينك</string>
+    <string name="empty_body">أضف العادات التي تريد القيام بها كل يوم. أنجزها لتكسب نقاط الخبرة وترتقي في المستويات والرتب.</string>
+    <string name="empty_cta">أضف أول عادة</string>
+    <string name="rest_day">لا شيء مجدول لهذا اليوم. استمتع بالراحة.</string>
+    <string name="back_to_today">العودة إلى اليوم</string>
+    <string name="no_streak_yet">ابدأ سلسلتك اليوم</string>
+
+    <plurals name="streak_days">
+        <item quantity="zero">سلسلة %d يوم</item>
+        <item quantity="one">سلسلة يوم واحد</item>
+        <item quantity="two">سلسلة يومين</item>
+        <item quantity="few">سلسلة %d أيام</item>
+        <item quantity="many">سلسلة %d يومًا</item>
+        <item quantity="other">سلسلة %d يوم</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="zero">%d يوم</item>
+        <item quantity="one">يوم واحد</item>
+        <item quantity="two">يومان</item>
+        <item quantity="few">%d أيام</item>
+        <item quantity="many">%d يومًا</item>
+        <item quantity="other">%d يوم</item>
+    </plurals>
+
+    <!-- Celebrations -->
+    <string name="level_up">ارتقاء مستوى</string>
+    <string name="you_are_now">أصبحت الآن</string>
+    <string name="rank_reward">+1 تجميد للسلسلة مع رتبتك الجديدة</string>
+    <string name="perfect_day">يوم مثالي</string>
+    <string name="perfect_day_body">أنجزت كل عاداتك اليوم. +50 XP مكافأة.</string>
+    <string name="title_unlocked">لقب جديد</string>
+    <string name="equip_title">استخدم هذا اللقب</string>
+    <string name="continue_btn">متابعة</string>
+    <string name="freeze_earned">حصلت على تجميد للسلسلة</string>
+    <string name="freeze_earned_body">سيحمي سلاسلك في يوم تفوّته.</string>
+
+    <!-- Habit sheet -->
+    <string name="current_streak">السلسلة الحالية</string>
+    <string name="best_streak">أفضل سلسلة</string>
+    <string name="rate_30_short">نسبة 30 يومًا</string>
+    <string name="last_30">آخر 30 يومًا</string>
+    <string name="mark_done">تحديد كمنجز</string>
+    <string name="mark_undone">إلغاء الإنجاز</string>
+    <string name="edit">تعديل</string>
+    <string name="timer_start">ابدأ</string>
+    <string name="timer_pause">إيقاف مؤقت</string>
+    <string name="add_5_min">+5 دقائق</string>
+    <string name="reset">إعادة</string>
+    <string name="schedule_every_day">كل يوم</string>
+    <string name="decrease">إنقاص</string>
+    <string name="increase">زيادة</string>
+
+    <!-- Editor -->
+    <string name="new_habit">عادة جديدة</string>
+    <string name="edit_habit">تعديل العادة</string>
+    <string name="save">حفظ</string>
+    <string name="back">رجوع</string>
+    <string name="habit_name">الاسم</string>
+    <string name="habit_name_hint">قراءة 20 صفحة</string>
+    <string name="name_required">أدخل اسمًا</string>
+    <string name="templates">بداية سريعة</string>
+    <string name="icon">الأيقونة</string>
+    <string name="color">اللون</string>
+    <string name="type">النوع</string>
+    <string name="type_check">إنجاز</string>
+    <string name="type_count">عدد</string>
+    <string name="type_duration">مدة</string>
+    <string name="goal">الهدف اليومي</string>
+    <string name="unit">الوحدة</string>
+    <string name="unit_hint">أكواب</string>
+    <string name="minutes">دقيقة</string>
+    <string name="repeat">التكرار</string>
+    <string name="every_day">كل يوم</string>
+    <string name="specific_days">أيام محددة</string>
+    <string name="pick_a_day">اختر يومًا واحدًا على الأقل</string>
+    <string name="time_of_day">وقت اليوم</string>
+    <string name="reminder">تذكير</string>
+    <string name="reminder_off">إيقاف</string>
+    <string name="set_time">تحديد الوقت</string>
+    <string name="delete_habit">حذف العادة</string>
+    <string name="delete_confirm_title">حذف هذه العادة؟</string>
+    <string name="delete_confirm_body">ستبقى نقاط الخبرة التي كسبتها. ستُحذف العادة وتذكيرها.</string>
+    <string name="delete">حذف</string>
+    <string name="cancel">إلغاء</string>
+    <string name="ok">حسنًا</string>
+
+    <!-- Templates -->
+    <string name="tpl_water">شرب الماء</string>
+    <string name="tpl_water_unit">أكواب</string>
+    <string name="tpl_read">القراءة</string>
+    <string name="tpl_workout">تمرين</string>
+    <string name="tpl_meditate">تأمّل</string>
+    <string name="tpl_walk">المشي</string>
+    <string name="tpl_wake">الاستيقاظ مبكرًا</string>
+    <string name="tpl_study">الدراسة</string>
+    <string name="tpl_sleep">النوم قبل 11 مساءً</string>
+    <string name="tpl_no_phone">بدون هاتف في السرير</string>
+    <string name="tpl_journal">كتابة اليوميات</string>
+    <string name="tpl_vitamins">تناول الفيتامينات</string>
+
+    <!-- Stats -->
+    <string name="stats_title">الإحصاء</string>
+    <string name="perfect_days">أيام مثالية</string>
+    <string name="total_done">عادات منجزة</string>
+    <string name="this_week">آخر 7 أيام</string>
+    <string name="activity">النشاط</string>
+    <string name="less">أقل</string>
+    <string name="more">أكثر</string>
+    <string name="per_habit">عاداتك</string>
+    <string name="habit_stats">الحالية %1$d · الأفضل %2$d</string>
+    <string name="rate_30">%1$d%%</string>
+    <string name="no_stats">أضف عادة لترى إحصاءاتك.</string>
+
+    <!-- Ranks -->
+    <string name="ranks_title">الرتب</string>
+    <string name="total_xp">إجمالي %1$s XP</string>
+    <string name="xp_to_next">%1$s XP حتى %2$s</string>
+    <string name="max_rank">وصلت إلى أعلى رتبة</string>
+    <string name="rank_level_req">المستوى %1$d+</string>
+    <string name="current">الحالية</string>
+    <string name="titles">الألقاب</string>
+    <string name="titles_hint">افتح الألقاب بالإنجازات. اضغط على لقب مفتوح لعرضه في ملفك.</string>
+    <string name="equipped">مُستخدم</string>
+    <string name="how_xp">كيف تكسب XP</string>
+    <string name="xp_rule_habit">+10 XP لكل عادة تنجزها</string>
+    <string name="xp_rule_streak">مكافأة +5 XP عند سلسلة 7 أيام للعادة، و+10 عند 30 يومًا</string>
+    <string name="xp_rule_perfect">+50 XP عندما تنجز كل عادات اليوم</string>
+    <string name="xp_rule_keep">تفويت يوم لا يُفقدك XP ولا مستويات. فقط السلسلة تبدأ من جديد.</string>
+
+    <string name="rank_beginner">مبتدئ</string>
+    <string name="rank_apprentice">متدرّب</string>
+    <string name="rank_committed">ملتزم</string>
+    <string name="rank_disciplined">منضبط</string>
+    <string name="rank_warrior">محارب</string>
+    <string name="rank_champion">بطل</string>
+    <string name="rank_master">خبير</string>
+    <string name="rank_legend">أسطورة</string>
+
+    <string name="ach_first_step">الخطوة الأولى</string>
+    <string name="ach_first_step_d">أنجز أول عادة</string>
+    <string name="ach_architect">المهندس</string>
+    <string name="ach_architect_d">أنشئ 5 عادات</string>
+    <string name="ach_early_bird">الطائر المبكر</string>
+    <string name="ach_early_bird_d">حافظ على عادة صباحية 7 أيام</string>
+    <string name="ach_night_owl">بومة الليل</string>
+    <string name="ach_night_owl_d">حافظ على عادة مسائية 7 أيام</string>
+    <string name="ach_week_warrior">محارب الأسبوع</string>
+    <string name="ach_week_warrior_d">حقق سلسلة 7 أيام</string>
+    <string name="ach_iron_will">إرادة حديدية</string>
+    <string name="ach_iron_will_d">حقق سلسلة 30 يومًا</string>
+    <string name="ach_marathon">الماراثون</string>
+    <string name="ach_marathon_d">حقق سلسلة 100 يوم</string>
+    <string name="ach_unbreakable">لا يُكسر</string>
+    <string name="ach_unbreakable_d">حافظ على عادة واحدة 30 يومًا</string>
+    <string name="ach_perfectionist">المثالي</string>
+    <string name="ach_perfectionist_d">احصل على 7 أيام مثالية</string>
+    <string name="ach_centurion">صاحب المئة</string>
+    <string name="ach_centurion_d">أنجز 100 عادة</string>
+    <string name="ach_habit_machine">آلة العادات</string>
+    <string name="ach_habit_machine_d">أنجز 1000 عادة</string>
+    <string name="ach_comeback">العودة القوية</string>
+    <string name="ach_comeback_d">عُد بعد انقطاع 3 أيام أو أكثر</string>
+    <string name="ach_rising_star">نجم صاعد</string>
+    <string name="ach_rising_star_d">صل إلى المستوى 10</string>
+    <string name="ach_legendary">أسطوري</string>
+    <string name="ach_legendary_d">صل إلى المستوى 50</string>
+
+    <!-- Profile -->
+    <string name="profile_title">الملف</string>
+    <string name="your_name">اسمك</string>
+    <string name="name_hint">أضف اسمك</string>
+    <string name="level_short">المستوى</string>
+    <string name="xp">XP</string>
+    <string name="freezes">تجميد</string>
+    <string name="freezes_title">تجميد السلسلة</string>
+    <plurals name="freezes_count">
+        <item quantity="zero">ليس لديك تجميد</item>
+        <item quantity="one">لديك تجميد واحد</item>
+        <item quantity="two">لديك تجميدان</item>
+        <item quantity="few">لديك %d تجميدات</item>
+        <item quantity="many">لديك %d تجميدًا</item>
+        <item quantity="other">لديك %d تجميد</item>
+    </plurals>
+    <string name="freezes_body">يحمي التجميد سلاسلك في يوم تفوّته بالكامل، ويُستخدم تلقائيًا. تكسب واحدًا عند كل سلسلة 7 أيام وعند كل رتبة جديدة، بحد أقصى 5.</string>
+    <string name="settings">الإعدادات</string>
+    <string name="appearance">المظهر</string>
+    <string name="theme_system">النظام</string>
+    <string name="theme_light">فاتح</string>
+    <string name="theme_dark">داكن</string>
+    <string name="language">اللغة</string>
+    <string name="lang_system">النظام</string>
+    <string name="notifications">الإشعارات</string>
+    <string name="notif_on">يمكن للتذكيرات أن تصلك</string>
+    <string name="notif_off">اسمح بالإشعارات لتصلك تذكيرات العادات</string>
+    <string name="allow">سماح</string>
+    <string name="backup">النسخ الاحتياطي</string>
+    <string name="backup_desc">احفظ كل عاداتك وتقدمك في ملف، أو استعِدها على هاتف جديد.</string>
+    <string name="export_data">تصدير</string>
+    <string name="import_data">استيراد</string>
+    <string name="export_done">تم حفظ النسخة الاحتياطية</string>
+    <string name="export_failed">تعذّر حفظ النسخة الاحتياطية. حاول مجددًا.</string>
+    <string name="import_done">تمت استعادة النسخة الاحتياطية</string>
+    <string name="import_failed">هذا الملف ليس نسخة احتياطية من Happit.</string>
+    <string name="import_confirm_title">استبدال بياناتك؟</string>
+    <string name="import_confirm_body">سيستبدل الاستيراد كل عاداتك وتقدمك الحالي بمحتوى النسخة الاحتياطية.</string>
+    <string name="updates">التحديثات</string>
+    <string name="check_updates">التحقق من التحديثات</string>
+    <string name="version_label">الإصدار %1$s</string>
+    <string name="checking">جارٍ التحقق…</string>
+    <string name="up_to_date">لديك أحدث إصدار</string>
+    <string name="update_available">الإصدار %1$s متاح</string>
+    <string name="update_now">حدّث الآن</string>
+    <string name="downloading">جارٍ التنزيل… %1$d%%</string>
+    <string name="install">تثبيت</string>
+    <string name="update_error">تعذّر التحقق من التحديثات. تحقق من اتصالك وحاول مجددًا.</string>
+    <string name="download_error">فشل التنزيل. حاول مجددًا.</string>
+    <string name="allow_installs">اسمح لـ Happit بتثبيت التحديثات، ثم اضغط تثبيت مرة أخرى.</string>
+    <string name="whats_new">الجديد</string>
+    <string name="later">لاحقًا</string>
+    <string name="about">حول التطبيق</string>
+    <string name="github">عرض على GitHub</string>
+
+    <!-- Notifications -->
+    <string name="channel_reminders">تذكيرات العادات</string>
+    <string name="notif_title">حان وقت: %1$s</string>
+    <plurals name="notif_streak">
+        <item quantity="zero">حافظ على سلسلتك: %d يوم</item>
+        <item quantity="one">حافظ على سلسلتك: يوم واحد</item>
+        <item quantity="two">حافظ على سلسلتك: يومان</item>
+        <item quantity="few">حافظ على سلسلتك: %d أيام</item>
+        <item quantity="many">حافظ على سلسلتك: %d يومًا</item>
+        <item quantity="other">حافظ على سلسلتك: %d يوم</item>
+    </plurals>
+    <string name="notif_start">الخطوات الصغيرة كل يوم تصنع الفرق.</string>
+    <string name="notif_done">تم</string>
+
+    <string-array name="quotes">
+        <item>الخطوات الصغيرة كل يوم تصنع الفرق.</item>
+        <item>لا يلزم أن تكون مثاليًا، يكفي أن تستمر.</item>
+        <item>جهد اليوم هو عادة الغد.</item>
+        <item>التقدّم أفضل من الكمال.</item>
+        <item>عادة واحدة في كل مرة، ويوم واحد في كل مرة.</item>
+        <item>حافظ على السلسلة.</item>
+        <item>فاتك يوم؟ ابدأ من جديد، فنقاطك ما زالت لك.</item>
+        <item>الاستمرار يحوّل الجهد إلى نتائج.</item>
+        <item>كن حاضرًا لنفسك اليوم.</item>
+        <item>قليل دائم خير من كثير منقطع.</item>
+    </string-array>
+</resources>
